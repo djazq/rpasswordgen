@@ -1,3 +1,18 @@
+#' Generate a single password
+#'
+#' @param length Length of the password.
+#' @param use_upper Logical, use uppercase letters.
+#' @param use_lower Logical, use lowercase letters.
+#' @param use_numbers Logical, use numbers.
+#' @param use_special Logical, use special characters.
+#' @return A randomly generated password.
+#' @examples
+#' # Generate a 16-character password with all types of characters
+#' generate_password(16, TRUE, TRUE, TRUE, TRUE)
+#'
+#' # Generate a 12-character password with only lowercase and numbers
+#' generate_password(12, use_upper = FALSE, use_lower = TRUE, use_numbers = TRUE, use_special = FALSE)
+#' @export
 generate_password <- function(length = 12, use_upper = TRUE, use_lower = TRUE, use_numbers = TRUE, use_special = TRUE) {
   upper_chars <- "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   lower_chars <- "abcdefghijklmnopqrstuvwxyz"
