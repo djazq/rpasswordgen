@@ -2,7 +2,7 @@ Package: rpasswordgen
 Title: A simple Password Generator
 Version: 0.0.0.9000
 Authors@R: 
-    person("Mohammad", "Djamal", "Zulfeqari", , "d.zulfeqari@campus.lmu.de", role = c("aut", "cre"))
+    person("Mohammad", "Zulfeqari", , "d.zulfeqari@campus.lmu.de", role = c("aut", "cre"))
 Description: This package provides functions to generate secure passwords.
 License: MIT + file LICENSE
 Encoding: UTF-8
